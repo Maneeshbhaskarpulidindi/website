@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome Amigos</title>
+    <!-- <link rel="styling" href="website.css"> -->
+     <style>
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Roboto', sans-serif;
+}
+.container
+{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(22, 19, 19, 0.7),rgba(28, 26, 26, 0.7)),url(images/BACK.jpeg);
+background-position: center;
+background-size: cover;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+}
+.naviagt
+{
+height: 5%;
+display: flex;
+align-items: center;
+} 
+
+
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a
+{
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+
+}
+#maintext
+{
+    height:200px;
+    color: rgb(72, 147, 110);
+}
+h1{
+    color: white;
+}
+.row
+{
+display: flex;
+height: 60%;
+align-items: left;
+}
+.col
+{
+    flex-basis: 60%;
+    /* align-items: ce; */
+}
+button
+{
+    width:150px;
+    color: rgb(3, 28, 52);
+    font-size: 15px;
+    padding: 10px;
+    background:white;
+    border: 0;
+    border-radius: 30px;
+    outline: navy;
+    margin-top: 10px;
+}
+.card
+{
+   width: 200px;
+   height: 200px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 15px 25px;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin: 15px 15px;
+   background-position: center;
+   background-size: cover;
+   transition: transform 0.5s;
+}
+.c1
+{
+    background-image: url(images/waterpark.jpeg);
+}
+.c2
+{
+    background-image: url(images/rammandhir.jpeg);
+}
+.c3
+{
+    background-image: url(images/zoo.jpeg);
+}
+.c4
+{
+    background-image: url(images/magneto.jpeg);
+}
+.c5
+{
+    background-image: url(images/marinedrive.jpeg);
+}
+.c6
+{
+background-image: url(images/download.jpeg);
+}
+.card:hover
+{
+    transform: translateY(-10px);
+}
+h4{
+    color: #fff;
+}
+p{
+    color: rgb(245, 244, 248);
+}
+a{
+    color:rgb(5, 255, 30);
+    background-image: none;
+}
+    </style> 
+</head>
+<body>
+    <div class="container">
+        <div class="navigat">
+         
+            <nav>
+                <ul>
+                    <li> <a href="welcome.html" >home</a></li>
+                </ul>
+           
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col">
+                <pre>
+
+
+
+
+
+
+
+
+
+
+
+                </pre>
+                <h1> Weclome Amigos</h1>
+                <p  id="maintext">
+                We would like to show give an tour to most of the raipur and you can find most of the tourist places
+                in here. 
+                Let us accompony you while you await your entrance to IITBhilai
+                </p>
+                <!-- <button type="button">
+                  view
+                </button> -->
+            </div>
+            <div class="col">
+             <div class="card c1">
+                <h4>Wonder Water Park</h4>
+                <p>
+                    fun packed not for parents, but the stud's gonna love this.
+                    <a href="https://goo.gl/maps/KxQRasbVZWuQcLUD7" target="_blank">know more</a>
+                </p>
+             </div>
+             <div class="card c2">
+                <h4>Ram Mandhir</h4>
+                <p>
+                    visit this at night with vibrant lights and a peaceful atmospher
+                    <a href="https://goo.gl/maps/yEj6j5W8hzsHsTso9" target="_blank">know more</a>
+                </p>
+             </div>
+             <div class="card c3">
+                <h4>Zoo</h4>
+                <p>
+                 Gonna take most of your day but it is worth it.
+                 <a href="https://goo.gl/maps/HqmKSkmLYpWu2JaN8" target="_blank">know more</a>
+                </p>
+             </div>
+             <div class="card c4">
+                <h4>Magneto Mall</h4>
+                <p>
+                   lots of shopping and lots of fun
+                   <a href="https://goo.gl/maps/63eMTC2MvRgeMEL19" target="_blank">know more</a>
+                </p>
+             </div>
+             <div class="card c5">
+                <h4>Marine Drive</h4>
+                <p>
+                  its speciality is the view and has the best food.
+                  <a href="https://goo.gl/maps/68WQQqjDX1sQ6x6N6" target="_blank">know more</a>
+                </p>
+             </div>
+
+             <div class="card c6">
+                <h4>Budha Talab</h4>
+                <p>
+                 Always visit this ppalce before sun set for the best view.
+                 <a href="https://goo.gl/maps/y5mBMNmTvyfYr2T37" target="_blank">know more</a>
+                </p>
+             </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

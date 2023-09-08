@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome Amigos</title>
+    <!-- <link rel="styling" href="website.css"> -->
+     <style>
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Roboto', sans-serif;
+}
+.container
+{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(22, 19, 19, 0.7),rgba(28, 26, 26, 0.7)),url(images/welcome.jpeg);
+background-position: center;
+background-size: cover;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+}
+.naviagt
+{
+height: 5%;
+display: flex;
+align-items: center;
+} 
+
+
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a
+{
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+
+}
+#maintext
+{
+    height:200px;
+    color: rgb(72, 147, 110);
+}
+h1{
+    color: white;
+}
+.row
+{
+display: flex;
+height: 60%;
+align-items: left;
+}
+.col
+{
+    flex-basis: 60%;
+    /* align-items: ce; */
+}
+button
+{
+    width:150px;
+    color: rgb(3, 28, 52);
+    font-size: 15px;
+    padding: 10px;
+    background:white;
+    border: 0;
+    border-radius: 30px;
+    outline: navy;
+    margin-top: 10px;
+}
+.card
+{
+   width: 250px;
+   height: 250px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 15px 25px;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin: 15px 15px;
+   background-position: center;
+   background-size: cover;
+   transition: transform 0.5s;
+}
+.c1
+{
+    background-image: url(images/eater.jpeg);
+}
+.c2
+{
+    background-image: url(images/stay.jpeg);
+}
+.c3
+{
+    background-image: url(images/images.jpeg);
+}
+
+.card:hover
+{
+    transform: translateY(-10px);
+}
+h4{
+    color: #fff;
+}
+p{
+    color: rgb(245, 244, 248);
+}
+a{
+    color:rgb(5, 255, 30);
+    background-image: none;
+}
+    </style> 
+</head>
+<body>
+    <div class="container">
+        <div class="navigat">
+         
+            <nav>
+                <ul>
+                    <li> <a href="welcome.html" >home</a></li>
+                </ul>
+           
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col">
+     
+                <h1> Weclome Amigos</h1>
+                <p  id="maintext">
+              we present you our website and you can have the best info for your food, stay and fun.
+                </p>
+                <!-- <button type="button">
+                  view
+                </button> -->
+            </div>
+            
+            <div class="col">
+             
+             <div class="card c1">
+                <h4>Taste Of Raipur</h4>
+                <p>
+                  You would really love to tastes we recommend you in our page
+                    <a href="foodpage.html" target="_blank">know more</a>
+                </p>
+             </div>
+             <div class="card c2">
+                <h4>JetLag</h4>
+                <p>
+                  you can book rooms near here are some suggestions from our side
+                    <a href="hostel.html" target="_blank">know more</a>
+                </p>
+             </div>
+             <div class="card c3">
+                <h4>Tour</h4>
+                <p>
+                 get ready to be shook by raipur's tourist attractions.
+                 <a href="webiste.html" target="_blank">know more</a>
+                </p>
+             </div>
+             
+            </div>
+        </div>
+    </div>
+</body>
+</html>
